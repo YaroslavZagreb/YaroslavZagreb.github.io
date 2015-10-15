@@ -1,0 +1,36 @@
+body{
+	background-color: #EEEEEE
+}
+
+#allPage{
+	background-color:#FFFFFF;
+	width: 120mm;   
+	height: 200mm; 
+	padding: 15mm 15mm 15mm 25mm; 
+	margin:auto; 
+	box-shadow: 0.3px 0.3px 4px 0px;
+	margin-bottom: 50px;
+	font-size: 14pt;
+	line-height: 1.5;
+	font-weight:lighter;
+}
+.head{
+	text-align: center;
+	font-size: 19pt;
+}
+.head1{
+	text-align: center;
+}
+.text{
+	margin:20px 10px;
+}
+.text1{
+	margin:0px 10px;
+}
+
+.hr{
+	height: 1px;
+	border: none;
+	clear: both;
+	margin-bottom: 23px;
+}
