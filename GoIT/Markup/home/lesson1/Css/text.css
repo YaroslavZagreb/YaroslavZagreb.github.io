@@ -1,0 +1,32 @@
+body{
+	background-color: #EEEEEE;
+	font-size: 18px;
+}
+
+#allPage{
+	background-color:#FFFFFF;
+	width: 454px;   
+	height: 756px; 
+	padding: 57px 57px 57px 57px; 
+	margin:auto; 
+	box-shadow: 0.3px 0.3px 4px 0px;
+	margin-bottom: 50px;
+	line-height: 1.5;
+	font-weight:lighter;
+}
+#text{
+	margin:0px 10px;
+}
+h1{
+	text-align: center;
+	font-size: 19pt;
+}
+.photo{
+	text-align: center;
+}
+p{
+	margin:25px 10px;
+}
+.text{
+	margin:-20px 0px 20px 10px ;
+}
