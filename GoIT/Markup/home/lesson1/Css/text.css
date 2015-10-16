@@ -1,6 +1,8 @@
 body{
 	background-color: #EEEEEE;
 	font-size: 18px;
+	font-weight:lighter;
+	line-height: 1.5;
 }
 
 #allPage{
@@ -11,15 +13,14 @@ body{
 	margin:auto; 
 	box-shadow: 0.3px 0.3px 4px 0px;
 	margin-bottom: 50px;
-	line-height: 1.5;
-	font-weight:lighter;
+	
 }
 #text{
 	margin:0px 10px;
 }
 h1{
 	text-align: center;
-	font-size: 19pt;
+	font-size: 25px;
 }
 .photo{
 	text-align: center;
@@ -29,4 +30,3 @@ p{
 }
 .text{
 	margin:-20px 0px 20px 10px ;
-}
