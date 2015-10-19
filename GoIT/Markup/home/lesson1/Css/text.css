@@ -1,6 +1,6 @@
 body{
 	background-color: #EEEEEE;
-	font-size: 18px;
+	font-size: 19px;
 	font-weight:lighter;
 	line-height: 1.5;
 }
@@ -14,7 +14,7 @@ body{
 	margin-bottom: 50px;
 }
 #text{
-	margin:0px 10px;
+	margin: 0px 0px 15px 10px;
 }
 h1{
 	text-align: center;
@@ -24,8 +24,5 @@ h1{
 	text-align: center;
 }
 p{
-	margin:25px 0px 0px 10px;
-}
-div{
-	margin: 0px 0px 15px 10px;
+	margin:25px 0px 15px 10px;
 }
