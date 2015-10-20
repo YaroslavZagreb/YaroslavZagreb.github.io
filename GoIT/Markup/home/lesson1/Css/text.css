@@ -1,15 +1,14 @@
 body{
 	background-color: #EEEEEE;
-	font-size: 19px;
+	font-size: 18px;
 	font-weight:lighter;
 	line-height: 1.5;
 }
 #allPage{
 	background-color:#FFFFFF;
 	width: 454px;   
-	height: 756px; 
-	padding: 57px 57px 57px 57px; 
-	margin:auto; 
+	padding: 30px 50px; 
+	margin: 0 auto; 
 	box-shadow: 0.3px 0.3px 4px 0px;
 	margin-bottom: 50px;
 }
@@ -24,5 +23,5 @@ h1{
 	text-align: center;
 }
 p{
-	margin:25px 0px 15px 10px;
+	margin:25px 10px;
 }
