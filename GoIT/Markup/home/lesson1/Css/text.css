@@ -21,3 +21,6 @@ h1{
 p{
 	margin:25px 10px;
 }
+.block1 {
+	border-bottom: 1px solid #000;
+}
