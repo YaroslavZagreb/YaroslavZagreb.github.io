@@ -1,0 +1,138 @@
+body{
+  background-color:#f9f9f9;
+}
+#allpage{
+  overflow: hidden;
+  position: relative;
+width: 968px;
+background-color:#ffffff;
+margin:0 auto;
+box-shadow: 0.3px 0.3px 4px 0px;
+padding: 46px 50px;
+}
+/*header*/
+.menu{
+  overflow: hidden;
+  position: relative;
+background: rgb(68,67,67);
+background: -moz-linear-gradient(top, rgba(68,67,67,1) 0%, rgba(94,94,94,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(68,67,67,1)), color-stop(100%,rgba(94,94,94,1)));
+background: -webkit-linear-gradient(top, rgba(68,67,67,1) 0%,rgba(94,94,94,1) 100%);
+background: -o-linear-gradient(top, rgba(68,67,67,1) 0%,rgba(94,94,94,1) 100%);
+background: -ms-linear-gradient(top, rgba(68,67,67,1) 0%,rgba(94,94,94,1) 100%);
+background: linear-gradient(to bottom, rgba(68,67,67,1) 0%,rgba(94,94,94,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444343', endColorstr='#5e5e5e',GradientType=0 );
+line-height: 40px;
+margin:40px 0px;
+
+}
+.menu li{
+  float:left;
+  }
+.menu li a{
+  font-size:15px;
+
+  color:#ffffff;
+  display: block;
+  padding-left:25px;
+  padding-right:50px;
+
+
+
+ text-decoration:none;
+}
+.menu li a:hover{
+  width: 30px;
+
+  border-left:1px solid #c8c8c8;
+  border-right:1px solid #c8c8c8;
+  background: rgb(46,46,46);
+background: -moz-linear-gradient(top,  rgba(46,46,46,1) 0%, rgba(74,74,74,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(46,46,46,1)), color-stop(100%,rgba(74,74,74,1)));
+background: -webkit-linear-gradient(top,  rgba(46,46,46,1) 0%,rgba(74,74,74,1) 100%);
+background: -o-linear-gradient(top,  rgba(46,46,46,1) 0%,rgba(74,74,74,1) 100%);
+background: -ms-linear-gradient(top,  rgba(46,46,46,1) 0%,rgba(74,74,74,1) 100%);
+background: linear-gradient(to bottom,  rgba(46,46,46,1) 0%,rgba(74,74,74,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#4a4a4a',GradientType=0 );
+
+}
+/*Navigation*/
+nav{
+  overflow: hidden;
+  position: relative;
+  width: 240px;
+
+  float:left;
+  line-height: 38px;
+border: 1px solid #c8c8c8;
+}
+
+
+nav li a{
+  padding: 0px 24px ;
+  color:#7a7878;
+  text-decoration:none;
+  border-bottom:1px solid #c8c8c8;
+  display: block;
+}
+nav li #bordernone:last-child{
+  border-bottom:none;
+}
+nav li a:hover{
+  background-color: #f9f9f9;
+  padding-left:36px;
+  color: #2c2c2c;
+}
+
+/*Main*/
+main{
+  overflow: hidden;
+  position: relative;
+    float:right;
+    width: 675px;
+}
+
+.bike{
+
+
+  border: 1px solid #c8c8c8;
+
+}
+.photo-bike{
+  padding: 45px 88px;
+}
+.content{
+
+}
+
+/*Footer*/
+
+.links{
+overflow: hidden;
+position: relative;
+background-color: #e1e1e1;
+line-height: 40px;
+margin:40px 0px;
+padding: 0px 14px;
+clear: both;
+}
+.links li{
+  float:left;
+  }
+.links li a{
+  color:#2c2c2c;
+  display: block;
+  padding-right:86px;
+ text-decoration:none;
+ }
+ #copy{
+   float:right;
+ }
+ .links li a:hover{
+   text-decoration: underline;
+ }
+ p{
+   line-height: 21px;
+   font-size:14px;
+   margin:40px 0 63px 0;
+ }
