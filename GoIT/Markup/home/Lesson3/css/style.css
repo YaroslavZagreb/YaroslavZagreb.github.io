@@ -1,102 +1,106 @@
   body{
-    background-color:#f9f9f9;
+  	background-color:#f9f9f9;
   }
   #allpage{
-    width:968px;
-    background-color:#ffffff;
-    margin:0 auto;
-    box-shadow: 0.3px 0.3px 4px 0px;
-    padding: 46px 50px;
+  	overflow: hidden;
+  	position: relative;
+  	width:968px;
+  	background-color:#ffffff;
+  	margin:0 auto;
+  	box-shadow: 0.3px 0.3px 4px 0px;
+  	padding: 46px 50px;
   }
   /*header*/
   .menu{
-    overflow: hidden;
-    position: relative;
-    background: rgb(68,67,67);
-    background: linear-gradient(to bottom, rgba(68,67,67,1) 0%,rgba(94,94,94,1) 100%);
-    line-height: 40px;
-    margin:40px 0px;
+  	overflow: hidden;
+  	position: relative;
+  	background: rgb(68,67,67);
+  	background: linear-gradient(to bottom, rgba(68,67,67,1) 0%,rgba(94,94,94,1) 100%);
+  	line-height: 40px;
+  	margin-top:40px;
   }
   .menu li{
-    float:left;
+  	float:left;
   }
   .menu li a{
-    font-size:15px;
-    color:#ffffff;
-    display: block;
-    padding-left:25px;
-    padding-right:50px;
-    text-decoration:none;
+  	font-size:15px;
+  	color:#ffffff;
+  	display: block;
+  	padding: 0px 25px;
+  	border-left: 1px solid rgba(255,255,255,0);
+  	border-right: 1px solid rgba(255,255,255,0);
+
+  	text-decoration:none;
   }
   .menu li a:hover{
-    width: 30px;
-    border-left:1px solid #c8c8c8;
-    border-right:1px solid #c8c8c8;
-    background: rgb(46,46,46);
-    background: linear-gradient(to bottom,  rgba(46,46,46,1) 0%,rgba(74,74,74,1) 100%);
+  	border-left: 1px solid #838383;
+  	border-right: 1px solid #838383;
+  	background: rgb(46,46,46);
+  	background: linear-gradient(to bottom,  rgba(46,46,46,1) 0%,rgba(74,74,74,1) 100%);
+  }
+  .content{
+  	padding-top: 40px;
   }
   /*Navigation*/
   nav{
-    width: 240px;
-    float:left;
-    line-height: 38px;
-    border: 1px solid #c8c8c8;
+  	width: 240px;
+  	float:left;
+  	line-height: 38px;
+  	border: 1px solid #c8c8c8;
   }
   nav li a{
-    padding: 0px 24px ;
-    color:#7a7878;
-    text-decoration:none;
-    border-bottom:1px solid #c8c8c8;
-    display: block;
+  	padding: 0px 24px ;
+  	color:#7a7878;
+  	text-decoration:none;
+  	border-bottom:1px solid #c8c8c8;
+  	display: block;
   }
   nav li:last-child a{
-    border-bottom:none;
+  	border-bottom:none;
   }
   nav li a:hover{
-    background-color: #f9f9f9;
-    padding-left:36px;
-    color: #2c2c2c;
+  	background-color: #f9f9f9;
+  	padding-left:36px;
+  	color: #2c2c2c;
   }
 
   /*Main*/
   main{
-    float:right;
-    width: 675px;
+  	float:right;
+  	width: 675px;
   }
   .bike{
-    border: 1px solid #c8c8c8;
+  	border: 1px solid #c8c8c8;
   }
   .photo-bike{
-    padding: 45px 88px;
+  	padding: 45px 88px;
   }
-  .content{
-   line-height: 21px;
-   font-size:14px;
-   margin:40px 0 63px 0;
- }
- /*Footer*/
- .links{
-  overflow: hidden;
-  position: relative;
-  background-color: #e1e1e1;
-  line-height: 40px;
-  margin:40px 0px;
-  padding: 0px 14px;
-  clear: both;
-}
-.links li{
-  float:left;
-}
-.links li a{
-  color:#2c2c2c;
-  display: block;
-  padding-right:86px;
-  text-decoration:none;
-}
-#copy{
- float:right;
-}
-.links li a:hover{
- text-decoration: underline;
-}
-
+  p{
+  	line-height: 21px;
+  	font-size:14px;
+  	margin:40px 0 63px 0;
+  }
+  /*Footer*/
+  .links{
+  	overflow: hidden;
+  	position: relative;
+  	background-color: #e1e1e1;
+  	line-height: 40px;
+  	margin:40px 0px;
+  	clear: both;
+  }
+  .links li{
+  	float:left;
+  }
+  .links li a{
+  	font-size:15px;
+  	color:#2c2c2c;
+  	padding:0px 25px;
+  	text-decoration:none;
+  }
+  #copy{
+  	float:right;
+  }
+  .links li a:hover{
+  	text-decoration: underline;
+  }
