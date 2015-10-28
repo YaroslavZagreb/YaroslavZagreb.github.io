@@ -75,7 +75,7 @@ nav li a{
   border-bottom:1px solid #c8c8c8;
   display: block;
 }
-nav li #bordernone:last-child{
+nav li:last-child a{
   border-bottom:none;
 }
 nav li a:hover{
