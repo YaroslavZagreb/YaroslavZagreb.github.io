@@ -1,0 +1,107 @@
+body{
+background-color: #060606;
+  line-height: 15px;
+  font-size: 15px;
+  font-family:Tahoma;
+  color: #e6e6e6;
+}
+
+.allpage{
+  overflow: hidden;
+  position: relative;
+  width: 965px;
+  /*height: 885px;*/
+  margin: 0 auto;
+  background-image: url(../img/Background.jpg);
+  background-repeat: no-repeat;
+}
+/*Header*/
+.head{
+    overflow: hidden;
+  	position: relative;
+    padding: 0 70px;
+}
+.logo{
+  float:left;
+  margin-top: 57px;
+}
+.contacts{
+float: right;
+margin-top: 152px;
+}
+/*Content*/
+.content{
+  overflow: hidden;
+  position: relative;
+  padding: 0 70px;
+}
+
+.india{
+  float: left;
+margin-right: 12px;
+}
+.indiaphoto{
+  border: 3px solid #999999;
+}
+.indiatext{
+  text-align:center;
+}
+.nepal{
+  float: left;
+}
+
+.nepaltext{
+  text-align: center;
+}
+.nepalphoto{
+  border: 3px solid #999999;
+}
+.tibet{
+  float: right;
+}
+.tibetphoto{
+border: 3px solid #999999;
+}
+.tibettext{
+  text-align: center;
+}
+.bhutan{
+  margin-top: 53px;
+  float: left;
+  margin-right: 12px;
+}
+.bhutanphoto{
+  border: 3px solid #999999;
+}
+.bhutantext{
+  text-align: center;
+}
+.sri_lanka{
+  margin-top: 53px;
+  float: left;
+}
+.sri_lankaphoto{
+  border: 3px solid #999999;
+}
+.sri_lankatext{
+  text-align:center;
+}
+.maldives{
+  margin-top: 53px;
+  float: right;
+}
+.maldivesphoto{
+  border:3px solid #999999;
+}
+.maldivestext{
+  text-align:center;
+}
+.footer{
+  margin-bottom: 30px;
+  margin-top: 190px;
+}
+.copy{
+  font-size:12px;
+  line-height: 11px;
+  text-align:center;
+}
