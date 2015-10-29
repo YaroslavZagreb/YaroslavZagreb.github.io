@@ -1,5 +1,5 @@
 body{
-background-color: #060606;
+  background-color: #060606;
   line-height: 15px;
   font-size: 15px;
   font-family:Tahoma;
@@ -7,38 +7,30 @@ background-color: #060606;
 }
 
 .allpage{
-  overflow: hidden;
-  position: relative;
   width: 965px;
-  /*height: 885px;*/
   margin: 0 auto;
   background-image: url(../img/Background.jpg);
   background-repeat: no-repeat;
 }
 /*Header*/
 .head{
-    overflow: hidden;
-  	position: relative;
-    padding: 0 70px;
+  padding: 0 70px;
 }
 .logo{
   float:left;
   margin-top: 57px;
 }
 .contacts{
-float: right;
-margin-top: 152px;
+  float: right;
+  margin-top: 152px;
 }
 /*Content*/
 .content{
-  overflow: hidden;
-  position: relative;
   padding: 0 70px;
 }
-
 .india{
   float: left;
-margin-right: 12px;
+  margin-right: 12px;
 }
 .indiaphoto{
   border: 3px solid #999999;
@@ -49,7 +41,6 @@ margin-right: 12px;
 .nepal{
   float: left;
 }
-
 .nepaltext{
   text-align: center;
 }
@@ -60,7 +51,7 @@ margin-right: 12px;
   float: right;
 }
 .tibetphoto{
-border: 3px solid #999999;
+  border: 3px solid #999999;
 }
 .tibettext{
   text-align: center;
@@ -104,4 +95,9 @@ border: 3px solid #999999;
   font-size:12px;
   line-height: 11px;
   text-align:center;
+}
+.Clearfix:after{
+  content:'';
+  clear:both;
+  display: block;
 }
