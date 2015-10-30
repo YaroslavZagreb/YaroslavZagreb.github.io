@@ -80,6 +80,9 @@ footer{
   line-height: 40px;
   margin:40px 0px;
 }
+.links{
+  float:left;
+}
 .links li{
   float:left;
 }
