@@ -17,27 +17,26 @@ body{
   list-style: none;
 }
 .logo{
-  width: 550px;
   float: left;
+}
+.contactsinfo{
+  float:right;
+  width: 360px;
 }
 .contacts{
   line-height: 17px;
-  float: right;
   font-size:12px;
+  float:right;
 }
 .contries{
   float: right;
-  width: 360px;
-  margin-top: 37px;
+  margin-top: 34px;
   font-size: 10px;
   line-height: 12px;
 }
 .contries li{
-  width: 60px;
+  width: 55px;
   float:left;
-  text-align: center;
-}
-.contries li span{
   text-align: center;
 }
 .pictures{
@@ -50,9 +49,7 @@ body{
   border-bottom: 1px solid #000000;
   padding-left:45px;
 }
-.nav li a{
-  margin-left 40px;
-}
+
 .nav li{
   float: left;
   position:relative;
@@ -66,6 +63,7 @@ body{
   padding-right: 55px;
   padding-left: 10px;
   border-bottom: 1px solid rgba(255,255,255,0);
+  line-height: 30px;
 }
 .nav ul{
   list-style:none;
@@ -107,8 +105,9 @@ body{
   margin: 8px 20px;
 }
 .centercontent{
- width: 580px;
+ width: 520px;
  float:left;
+ padding: 8px 30px;
 }
 .leftcontent{
   width: 210px;
