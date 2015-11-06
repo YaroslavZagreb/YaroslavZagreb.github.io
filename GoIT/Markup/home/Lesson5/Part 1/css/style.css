@@ -19,7 +19,8 @@ body{
 margin:auto;
 }
 header{
-  background: url(../img/topline.png);
+  background: url(../img/topline.png)no-repeat center top fixed;
+ background-size: cover;
 
 }
 .menu{
@@ -75,8 +76,8 @@ border: 1px solid #3399cc;
   vertical-align: middle;
 }
 main{
-background: url(../img/Content.png);
-
+background: url(../img/Content.png) no-repeat center top fixed;
+ background-size: cover;
 height: 1030px;
 position:relative;
 }
@@ -127,6 +128,9 @@ top: 0; left: 0; bottom: 0; right: 0;
   -webkit-box-shadow: 0px 0px 6px 0px rgba(51,102,153,1);
 -moz-box-shadow: 0px 0px 6px 0px rgba(51,102,153,1);
 box-shadow: 0px 0px 6px 0px rgba(51,102,153,1);
+}
+.notice{
+
 }
 .createaccount input{
   border: 1px solid #6699cc;
