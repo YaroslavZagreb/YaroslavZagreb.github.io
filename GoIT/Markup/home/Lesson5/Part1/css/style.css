@@ -8,19 +8,24 @@
     font-weight: normal;
     font-style: normal;
   }
+  html{
+    height:100%;
+  }
 body{
     line-height: 36px;
     font-size: 14px;
     font-family: "Helvetica Neue Regular",Tahoma, sans-serif;
-
+background: url(../img/Content.png)no-repeat center top fixed;
+background-size: cover;
+height: 100%
 }
 .wrapper{
-  width: 1920px;
-margin:auto;
+
+/*margin:auto;*/
 }
 header{
-  background: url(../img/topline.png)no-repeat center top fixed;
- background-size: cover;
+  background: url(../img/topline.png) repeat-x;
+
 
 }
 .menu{
@@ -30,16 +35,18 @@ header{
   float:left;
 }
 .menu li a{
-  margin: 0 13px;
+
   color: #66ccff;
   text-decoration: none;
+  display: block;
+  padding: 0 10px;
 
 }
 .menu li a:hover{
   background: #6699cc;
   color:#ffffff;
 
-display: block;
+/*display: block;*/
 }
 
 .vline{
@@ -70,18 +77,13 @@ text-decoration: none;
 }
 .rightmenu li:last-child{
 background: #6699cc;
-border: 1px solid #3399cc;
+
 }
 .rightmenu img{
   vertical-align: middle;
 }
-main{
-background: url(../img/Content.png) no-repeat center top fixed;
- background-size: cover;
-height: 1030px;
-position:relative;
-}
-.formmenu{
+
+.headform{
   height: 600px;
   width: 550px;
   margin:auto;
@@ -89,10 +91,15 @@ position:relative;
   position: absolute;
 top: 0; left: 0; bottom: 0; right: 0;
   background: rgba(0, 0, 0, 0.6);
-  text-align: center;
+
+}
+.formmenu{
+  width: 276px;
+  margin: 0  auto;
+  text-align: inherit;
 }
 .register{
-
+text-align: center;
   border-bottom: 2px solid #cccccc;
 }
 .register span{
@@ -107,6 +114,7 @@ top: 0; left: 0; bottom: 0; right: 0;
 }
 .ou{
   margin-bottom:15px;
+  text-align: center;
 }
 .information input{
   width: 276px;
@@ -129,8 +137,8 @@ top: 0; left: 0; bottom: 0; right: 0;
 -moz-box-shadow: 0px 0px 6px 0px rgba(51,102,153,1);
 box-shadow: 0px 0px 6px 0px rgba(51,102,153,1);
 }
-.notice{
-
+.createaccount{
+  text-align: center;
 }
 .createaccount input{
   border: 1px solid #6699cc;
@@ -147,11 +155,11 @@ box-shadow: 0px 0px 6px 0px rgba(51,102,153,1);
   background: -ms-linear-gradient(top,  #3399cc 0%,#6699cc 100%); /* IE10+ */
   background: linear-gradient(to bottom,  #3399cc 0%,#6699cc 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3399cc', endColorstr='#6699cc',GradientType=0 ); /* IE6-9 */
-
-}
-.formmenu p{
+ }
+.headform p{
   font-size: 11px;
   line-height: 16px;
+  text-align: center;
 }
 .clearfix:after {
  content:'';
