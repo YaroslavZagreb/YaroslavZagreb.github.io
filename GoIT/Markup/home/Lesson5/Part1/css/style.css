@@ -117,11 +117,14 @@ body{
   margin-bottom: 13px;
   color:#cccccc;
 }
-.information input:hover{
+.information input:focus{
   width: 276px;
   height: 35px;
   background: #336699;
   border: 1px solid #6699cc;
+  box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.2),
+     0px 0px 12px 2px rgba(47,122,197,1),
+     inset 0px -1px 0px 0px rgba(104,156,204,1);
 
   margin-bottom: 13px;
   color:#ffffff;
