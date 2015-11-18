@@ -54,6 +54,14 @@ header .authorization a:hover{
   color: #bfbfbf;
   text-decoration: underline;
 }
+header .authorization .enter:after {
+    display: inline-block;
+    margin-bottom: -2px;
+    margin-left: 5px;
+    content: '';
+    height: 10px;
+    border-left: 1px solid #fff;
+}
 header .authorization a:last-child {
     margin-left: 15px;
 }
@@ -382,11 +390,11 @@ figcaption {
     font-weight: bold;
     font-style: italic;
 }
-.brandmenu {
+.brand {
     margin: 20px 0;
     text-align: center;
 }
-.brandmenu a {
+.brand a {
     display: inline-block;
     vertical-align: middle;
     margin: 0px 7px;
